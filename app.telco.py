@@ -55,7 +55,7 @@ with col3:
     streaming_movies = st.selectbox('Streaming Movies', ['No', 'Yes', 'No internet service'])
     paperless_billing = st.checkbox('Paperless Billing')
 
-monthly_charges = st.number_input('Monthly Charges', 0.0, 200.0, 50.0)
+monthly_charges = st.number_input('Monthly Charges', 0.0, 500.0, 50.0)
 total_charges = st.number_input('Total Charges', 0.0, 10000.0, 1000.0)
 
 contract = st.selectbox('Contract', ['Month-to-month', 'One year', 'Two year'])
